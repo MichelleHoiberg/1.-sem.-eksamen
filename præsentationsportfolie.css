@@ -1,0 +1,205 @@
+/*For at fjerne default paddings og margins, sætter jeg begge til 0.
+Jeg undgår at skrive % eller px, da det ikke er nødvendigt foran 0.*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000033;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #333366;
+
+}
+
+
+ul li {
+  /*nedenstående skriver jeg for at fjerne punktformerne til venstre for menulinksene*/
+  list-style: none;
+  /*jeg skriver nedenstående linje for at få menu-links til at stå horisontalt istedet for vertikalt*/
+  display: inline-block;
+  /*jeg skiver nedenstående linje for at fjerne det "unclickable" gap mellem mine menu-links*/
+  float:left;
+  line-height: 100px;
+}
+
+ul li a {
+  /*Jeg skriver nedenstående linje for at det er muligt ikke kun at trykke på menu linket,
+  men også ovenover og under linket.*/
+  display: block;
+  /*jeg vælger none til text-decoration for at undgå streger under mine menu-links*/
+text-decoration: none;
+font-size: 34px;
+font-family: Optima, sans-serif;
+color: #ffa300;
+/* her vælger jeg 0 udfor padding, da jeg allerede har centreret min tekst i midten af nav.
+Derfeter vælger jeg 20 px for at skabe mellemrum mellem både højre og venstre side af hver menu-link.*/
+padding: 0 20px;
+}
+/*nedenstående linje gør at, når man bevæger musen over menu-linksene, ændrer de farve*/
+ul li a:hover {
+color: #836aac;
+}
+
+h1 {
+  color: #e93c8e;
+}
+
+#videoa {
+  background-color: #2c2251;
+  width: 321px;
+  height: 299px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+position: absolute;
+left: 268px;
+top: 200px;
+color: #70b3ba;
+border:1px solid #70b3ba;
+text-align: center;
+
+
+}
+
+
+#project2 {
+  background-color: #2c2251;
+  width: 647px;
+  height: 299px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 643px;
+  top: 200px;
+  color: #70b3ba;
+  border:1px solid #70b3ba;
+  text-align: center;
+
+}
+
+#typographya {
+  background-color: #2c2251;
+  width: 321px;
+  height: 299px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+position: absolute;
+  left: 1333px;
+  top: 200px;
+  color: #70b3ba;
+  border:1px solid #70b3ba;
+  text-align: center;
+
+}
+
+#project1 {
+  background-color: #2c2251;
+  width: 478px;
+  height: 299px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 268px;
+  top: 611px;
+  color: #70b3ba;
+  border:1px solid #70b3ba;
+  text-align: center;
+
+}
+
+#animationa {
+  background-color: #2c2251;
+  width: 321px;
+  height: 299px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 800px;
+  top: 611px;
+  color: #70b3ba;
+  border:1px solid #70b3ba;
+  text-align: center;
+
+}
+
+#project3 {
+  background-color: #2c2251;
+  width: 478px;
+  height: 299px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 1176px;
+  top: 611px;
+  color: #70b3ba;
+  border:1px solid #70b3ba;
+  text-align: center;
+
+}
+
+#about {
+  background-color: #2c2251;
+  width: 647px;
+  height: 418px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 643px;
+  top: 170px;
+  color: #70b3ba;
+  border:1px solid #70b3ba;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.me {
+  display: flex;
+  position: absolute;
+      top: 200px;
+left: 300px;
+border-radius: 5px;
+
+}
+main {
+  width: 100%;
+  height: 450px;
+  background-color: #2c2251;
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 643px;
+  top: 170px;
+  width: 647px;
+  height: 418px;
+  padding: 30px;
+  margin: 30px;
+  color: #70b3ba;
+    border:1px solid #70b3ba;
+    border-radius: 5px;
+    position:absolute;
+
+
+}
+
+#welcome {
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
